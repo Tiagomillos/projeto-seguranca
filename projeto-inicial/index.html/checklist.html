@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Checklist de Segurança</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>✅ Checklist de Segurança</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="guia.html">Guia Interativo</a>
+      <a href="quiz.html">Treinamentos</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Marque cada item quando concluir:</p>
+    <ul id="checklist">
+      <li><input type="checkbox" onchange="saveChecklist()"> Ativar 2FA no WhatsApp</li>
+      <li><input type="checkbox" onchange="saveChecklist()"> Usar senhas fortes</li>
+      <li><input type="checkbox" onchange="saveChecklist()"> Não clicar em links suspeitos</li>
+      <li><input type="checkbox" onchange="saveChecklist()"> Conferir HTTPS antes de inserir dados</li>
+      <li><input type="checkbox" onchange="saveChecklist()"> Evitar Wi-Fi público em transações</li>
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

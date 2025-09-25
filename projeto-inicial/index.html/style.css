@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #02182e;
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+}
+
+header {
+  background: linear-gradient(90deg, #2563EB, #1E40AF);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #facc15;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 20px;
+}
+
+h2 {
+  color: #4b80f1;
+  margin-bottom: 15px;
+}
+
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+  display: block;
+  margin: 12px 0;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #2563EB;
+  color: white;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #1E40AF;
+  transform: scale(1.05);
+}
+
+#feedback {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#feedback:contains("✅") {
+  color: #16A34A;
+}
+#feedback:contains("❌") {
+  color: #DC2626;
+}
+
+/* ---- Cards ---- */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1E40AF;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ---- Checklist ---- */
+ul#checklist {
+  list-style: none;
+  padding: 0;
+}
+
+ul#checklist li {
+  background: #e0f2fe;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+ul#checklist li input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #16A34A;
+}
