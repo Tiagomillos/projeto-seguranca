@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #2563EB, #1E40AF);
+  background: linear-gradient(90deg, #0c162c, #1E40AF);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -17,14 +17,17 @@ header {
 header h1 {
   margin: 0;
   font-size: 26px;
+  
 }
+
+
 
 nav {
   margin-top: 10px;
 }
 
 nav a {
-  color: #facc15;
+  color: #ffd738;
   margin: 0 12px;
   text-decoration: none;
   font-weight: bold;
@@ -41,6 +44,13 @@ main {
   padding: 20px;
 }
 
+
+h1 {
+    color: #ebde25;
+    
+    margin-bottom: 20px;
+}
+
 h2 {
   color: #4b80f1;
   margin-bottom: 15px;
@@ -51,6 +61,12 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
     color: white;
+}
+
+img {
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: #4a4268 0px 4px 8px;
 }
 
 button {
@@ -67,7 +83,7 @@ button {
 }
 
 button:hover {
-  background: #1E40AF;
+  background: #dae1f7;
   transform: scale(1.05);
 }
 
