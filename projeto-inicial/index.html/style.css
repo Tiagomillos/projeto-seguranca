@@ -1,13 +1,13 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #02182e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #020413;
   margin: 0;
   padding: 0;
   color: #1e293b;
 }
 
 header {
-  background: linear-gradient(90deg, #0c162c, #1E40AF);
+  background: linear-gradient(90deg, #091f4e, #1E40AF);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -52,8 +52,15 @@ h1 {
 }
 
 h2 {
-  color: #4b80f1;
+  color: #a7aebd;
   margin-bottom: 15px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;            
 }
 
 
@@ -85,6 +92,8 @@ button {
 button:hover {
   background: #dae1f7;
   transform: scale(1.05);
+  color: #1E40AF;
+
 }
 
 #feedback {
